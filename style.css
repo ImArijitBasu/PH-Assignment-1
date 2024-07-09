@@ -9,7 +9,6 @@
 body {
     /* background-color: rgb(159, 203, 241); */
 }
-
 /* header section  */
 /* nav section (optional)  */
 header {
@@ -408,54 +407,59 @@ header .banner .banner-content button a {
 
 /* i need support section  */
 
-.support{
-    margin:46px auto;
+.support {
+    margin: 46px auto;
     width: 1044px;
     height: 185px;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
-background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) ,url(/assets/handshake.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.support-title{
+
+.support-title {
     width: 730px;
-height: 104px;
-margin-bottom: 24px;
+    height: 104px;
+    margin-bottom: 24px;
 }
-.support-title h1{
+
+.support-title h1 {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 16px;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
 }
-.support-title p{
+
+.support-title p {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 
 }
-.support-box{
+
+.support-box {
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.support-box textarea{
+
+.support-box textarea {
     color: rgba(13, 19, 33, 0.4);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -464,27 +468,65 @@ opacity: 0.7;
     letter-spacing: 0%;
     text-align: left;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-background: rgb(255, 255, 255);
-padding: 19px 20px;
-resize:none; 
-width: 548px;
-height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    resize: none;
+    width: 548px;
+    height: 57px;
 }
-.support-box button{
+
+.support-box button {
     border-radius: 8px;
 
-background: rgb(255, 255, 255);
-padding: 17px 20px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
 }
-.support-box button a{
+
+.support-box button a {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-text-decoration: none;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* footer section (mandatory) */
+
+#footer {
+    margin: 80px auto 0px auto;
+    width: 1440px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-container {
+    margin: 32px 150px;
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-left h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.foot-right img {
+    margin-left: 24px;
 }
