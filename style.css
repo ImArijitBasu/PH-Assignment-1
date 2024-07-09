@@ -414,7 +414,7 @@ header .banner .banner-content button a {
     height: 185px;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(handshake.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(handshake.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
