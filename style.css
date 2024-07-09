@@ -1,8 +1,134 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
     margin: 0;
     border: 0;
     padding: 0;
 }
-body{
-    background-color: rgb(159, 203, 241);
+
+body {
+    /* background-color: rgb(159, 203, 241); */
 }
+
+/* header section  */
+/* nav section (optional)  */
+header {
+    margin: auto;
+    width: 1440px;
+    height: 652px;
+}
+
+header nav {
+    height: 130px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav-left h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 150px;
+}
+
+header nav .nav-right button {
+    margin-right: 166px;
+    padding: 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header nav .nav-right button a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* banner section (mandatory)  */
+
+header .banner {
+    width: 1440px;
+    height: 652px;
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner .banner-content {
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+header .banner .banner-content img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 32px;
+}
+
+header .banner .banner-content h1 {
+    width: 998px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+header .banner .banner-content p {
+    width: 852px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+header .banner .banner-content button {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+}
+
+header .banner .banner-content button a {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* why web development section  */
