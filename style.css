@@ -405,6 +405,89 @@ header .banner .banner-content button a {
     text-decoration-line: underline;
 }
 
+/* next target section  */
+.next-target{
+    margin: 120px auto 90px auto;
+    height: 871px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.next-title {
+    width: 852px;
+    margin-bottom: 48px;
+}
+.next-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.next-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.next-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.next-skill{
+height: 220px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+gap: 24px;
+display: flex;
+
+}
+.next-skill .skill-right h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.next-skill .skill-right p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+margin-bottom: 24px;
+}
+.next-skill .skill-right a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
 
 /* i need support section  */
 
