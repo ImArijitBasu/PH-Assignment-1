@@ -474,7 +474,21 @@ background: rgb(255, 255, 255);
 padding: 40px;
 gap: 24px;
 display: flex;
-
+transition: .5s ease-in-out;
+}
+.next-skill:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+    background: rgba(0, 76, 232, 0.05);
+    scale: 1.09;
+}
+.next-skill .skill-right{
+    transition: .5s ease-in-out;
+}
+.next-skill .skill-right:hover{
+    scale: .95;
+    background: rgba(0, 76, 232, 0.07);
+    box-shadow: 0px 0px 15px 0px gray;
+    padding: 20px;
 }
 .next-skill .skill-right h1{
     color: rgb(13, 19, 33);
@@ -525,10 +539,6 @@ text-decoration-line: underline;
     justify-content: space-between;
     align-items: center;
 }
-/* .supp{
-    background-color: rgba(2, 2, 2, 0.5);
-    background-blend-mode: multiply;
-} */
 
 .support-title {
     width: 730px;
@@ -589,7 +599,12 @@ text-decoration-line: underline;
     background: rgb(255, 255, 255);
     padding: 17px 20px;
 }
-
+.support-box button:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+    background: rgba(0, 76, 232, 0.5);
+    scale: 1.001;
+    color: aliceblue;
+}
 .support-box button a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -599,6 +614,12 @@ text-decoration-line: underline;
     letter-spacing: 0%;
     text-align: center;
     text-decoration: none;
+}
+.support-box button a:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+    background: rgba(0, 76, 232, 0.5);
+    color: aliceblue;
+    border-radius: 0px;
 }
 
 
