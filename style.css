@@ -47,7 +47,6 @@ header nav .nav-right button {
     background-color: transparent;
     cursor: pointer;
 }
-
 header nav .nav-right button a {
     text-decoration: none;
     color: rgb(13, 19, 33);
@@ -58,7 +57,6 @@ header nav .nav-right button a {
     letter-spacing: 0%;
     text-align: center;
 }
-
 /* banner section (mandatory)  */
 
 header .banner {
@@ -116,6 +114,13 @@ header .banner .banner-content button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;
+    transition: .2s ease-in-out;
+}
+header .banner .banner-content button:hover{
+    background: rgba(48, 80, 156, 0.603);
+    border: 1px solid black;
+    scale: 0.8;
+    border-radius: 50px;
 }
 
 header .banner .banner-content button a {
@@ -356,20 +361,34 @@ header .banner .banner-content button a {
 .ct-skill {
     padding: 40px;
     border-radius: 16px;
+    transition: .5s;
+}
+.ct-skill:hover{
+    /* background-color: rgb(78, 150, 245); */
+    border: 2px solid aliceblue;
+    box-shadow: 0px 0px 5px 5px gray;
+    scale:1.25;
 }
 
 .one {
     background: rgba(255, 76, 30, 0.05);
 }
-
+.one:hover{
+    background: rgba(255, 76, 30, 0.5);
+}
 .two {
     background: rgba(0, 76, 232, 0.05);
+}
+.two:hover{
+    background: rgba(0, 76, 232, 0.5);
 }
 
 .three {
     background: rgba(255, 223, 0, 0.05);
 }
-
+.three:hover {
+    background: rgba(255, 223, 0, 0.5);
+}
 .ct-skill h2 {
     margin-top: 24px;
     color: rgb(13, 19, 33);
